@@ -299,3 +299,125 @@ Los embeddings no son solo un concepto técnico, son la clave para comunicarnos 
 ¿Qué analogías semánticas has descubierto en tu uso de LLMs? Comparte tus hallazgos y juntos exploremos las fascinantes dimensiones del lenguaje artificial.
 
 
+---
+
+# Roles 
+**El Poder Transformador de los Roles en tus Prompts**
+
+Llegamos a uno de los conceptos más poderosos en prompt engineering: la asignación estratégica de roles. Como descubrimos con los embeddings, cada palabra dirige la atención del modelo hacia regiones específicas del espacio vectorial. Al definir un rol, estamos realizando la navegación más efectiva posible hacia el conocimiento especializado que necesitamos.
+
+### Tu Brújula en el Espacio Vectorial
+
+**¿Por qué un rol cambia todo?**
+Cuando asignas un rol al LLM, estás esencialmente dándole una "descripción de puesto" que:
+- Orienta el tono y vocabulario
+- Activa patrones de lenguaje especializado
+- Enfoca la respuesta en el área de conocimiento relevante
+- Reduce la ambigüedad desde el primer momento
+
+### Demostración Práctica: El Ejemplo del Clima
+
+**Prompt Genérico:**
+```
+¿qué es el clima?
+```
+*Respuesta típica:* Definición técnica estándar - "condiciones atmosféricas como temperatura, precipitación, humedad..."
+
+**Prompt con Rol Estratégico:**
+```
+Actúa como climatólogo experto y explícame qué es el clima. Yo soy un niño de primaria.
+```
+*Respuesta transformada:* 
+"¡Hola amiguito! 🌞 El clima es como la 'personalidad' de un lugar cada día. ¿Ves cuando a veces hace sol ☀️, otras llueve 🌧️, o hace viento 💨? ¡Eso es el clima! Es como si la Tierra tuviera diferentes estados de ánimo..."
+
+### La Anatomía de un Prompt con Rol Efectivo
+
+**Estructura Comprobada:**
+```
+[Rol] Actúa como [especialista específico]
+[Enfoque] [Tarea concreta con verbo de acción]
+[Contexto] [Información relevante + audiencia]
+[Límites] [Formato, extensión, tono]
+```
+
+**Ejemplo Desglosado:**
+```
+[Rol] Actúa como ingeniero de software senior especializado en Python
+[Enfoque] Explica el concepto de decoradores
+[Contexto] Soy un desarrollador junior con 6 meses de experiencia
+[Límites] Máximo 300 palabras, usa analogías prácticas, evita tecnicismos innecesarios
+```
+
+### Validación de Roles: Antes de Disparar
+
+Una práctica subestimada pero crucial es validar cómo el modelo interpreta un rol:
+
+**Prompt de Validación:**
+```
+Para ti, ¿qué es un community manager? Describe sus responsabilidades clave.
+```
+
+Esto te permite:
+- Verificar la comprensión del modelo sobre ese rol
+- Ajustar o cambiar el rol antes de la tarea principal
+- Evitar malentendidos costosos
+
+### Práctica: Transformando Prompts con Roles
+
+**Ejercicio de Transformación:**
+
+1. **Prompt Débil Original:**
+   ```
+   Necesito ideas para redes sociales
+   ```
+
+2. **Prompt con Rol Estratégico:**
+   ```
+   [Rol] Actúa como director creativo de una agencia de marketing viral
+   [Enfoque] Genera 5 ideas para posts de Instagram
+   [Contexto] Tengo una startup de educación en tecnología para jóvenes
+   [Límites] Ideas específicas para Gen Z, tono casual pero profesional, incluye hooks atractivos
+   ```
+
+**Compara los resultados:**
+- ¿Cuál produce ideas más innovadoras y específicas?
+- ¿Cuál entiende mejor el contexto del negocio?
+- ¿Cuál requiere menos iteraciones?
+
+### Casos de Uso por Industria
+
+**Para Educadores:**
+```
+[Rol] Eres un pedagogo especializado en aprendizaje acelerado
+[Enfoque] Diseña un plan de 30 minutos para enseñar [concepto]
+[Contexto] Estudiantes universitarios con atención limitada
+```
+
+**Para Emprendedores:**
+```
+[Rol] Actúa como consultor de startups en etapa temprana
+[Enfoque] Analiza este modelo de negocio y señala 3 riesgos principales
+[Contexto] Producto SaaS con 100 usuarios mensuales
+```
+
+**Para Desarrolladores:**
+```
+[Rol] Eres arquitecto de software con 15 años de experiencia
+[Enfoque] Revisa esta estructura de base de datos
+[Contexto] Aplicación de e-commerce escalando a 10,000 usuarios
+```
+
+### Conclusión: Dominio a Través de Roles
+
+El uso estratégico de roles no es un truco más; es la evolución natural de entender cómo funcionan los LLMs. Al asignar roles específicos:
+
+- **Triplicas** la relevancia de las respuestas
+- **Reduces** las iteraciones necesarias
+- **Aumentas** la calidad del output
+- **Personalizas** la experiencia para tu contexto único
+
+**Tu Desafío Práctico:**
+Toma una tarea que hayas solicitado recientemente a un LLM y reescríbela usando la estructura de roles. Compara los resultados.
+
+¿Qué rol descubriste que transformó completamente tus resultados? ¿Cómo aplicaste este concepto en tu industria?
+

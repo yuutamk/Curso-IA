@@ -421,3 +421,171 @@ Toma una tarea que hayas solicitado recientemente a un LLM y reescríbela usando
 
 ¿Qué rol descubriste que transformó completamente tus resultados? ¿Cómo aplicaste este concepto en tu industria?
 
+---
+
+**Curso de Prompt Engineering: Comparando Modelos de IA para Resultados Óptimos**
+
+Hemos dominado la estructura de prompts, el análisis de documentos, los embeddings y el uso estratégico de roles. Ahora llega el momento crucial: **¿qué modelo elegir para cada tarea?** La respuesta no es única, y aprender a comparar sistemáticamente te dará una ventaja competitiva significativa.
+
+### El Arte de la Comparación Justa: Método Científico para IA
+
+**Por qué comparar correctamente importa:**
+- Los modelos evolucionan semanalmente
+- Cada uno tiene fortalezas específicas
+- El "mejor" depende completamente de tu caso de uso
+
+**Metodología de comparación confiable:**
+1. **Prepara el entorno:** Abre ChatGPT, Claude, Gemini y Copilot en pestañas paralelas
+2. **Mismo prompt, mismo momento:** Ejecuta pruebas el mismo día para evitar variaciones por actualizaciones
+3. **Criterios predefinidos:** Define qué buscarás antes de ver los resultados
+4. **Prompt unificado:** Usa exactamente la misma instrucción en todos
+
+### Ejemplo Práctico: Mejorando la Productividad del Equipo
+
+**Prompt Genérico (para comparación base):**
+
+
+>¿cómo mejorar la productividad del equipo?
+
+
+**Prompt Estructurado (para comparación avanzada):**
+
+>Eres consultor especializado en eficiencia organizacional
+>
+>Propon 5 estrategias para mejorar productividad
+>
+>Equipo de 15 personas en startup tecnológica, trabajo híbrido
+>
+>Estrategias accionables, máximo 300 palabras, formato bullet points
+
+- [Rol] Eres consultor especializado en eficiencia organizacional
+
+- [Enfoque] Propon 5 estrategias para mejorar productividad
+
+- [Contexto] Equipo de 15 personas en startup tecnológica, trabajo híbrido
+
+- [Límites] Estrategias accionables, máximo 300 palabras, formato bullet points
+
+### Análisis de Resultados por Criterios
+
+**Criterios de Evaluación Esenciales:**
+
+1. **Claridad:** ¿Las ideas son concretas y entendibles?
+2. **Accionabilidad:** ¿Ofrece pasos aplicables inmediatamente?
+3. **Contextualización:** ¿Se adapta al escenario específico?
+4. **Profundidad vs Brevedad:** ¿Logra el equilibrio adecuado?
+5. **Formato:** ¿Presentación limpia y fácil de digerir?
+
+**Ejemplo de Hallazgos Típicos:**
+- **ChatGPT:** 6 ítems detallados, tono conversacional
+- **Claude:** Estructura jerárquica clara, enfoque en procesos
+- **Gemini:** 4 puntos concisos, integración con herramientas Google
+- **Copilot:** Enfoque Microsoft-centric, referencia a Teams/Office
+
+### Entendiendo el Ecosistema de Modelos
+
+**No es lo mismo la herramienta que el modelo:**
+
+- **ChatGPT (OpenAI):** Modelos GPT-4, GPT-5
+  - *Modos:* Bajo pensamiento → Pensamiento → Pro
+  - *Ideal para:* Creatividad, redacción, análisis general
+
+- **Claude (Anthropic):** Opus vs Sonnet
+  - *Opus:* Máximo razonamiento para problemas complejos
+  - *Sonnet:* Eficiente para tareas diarias
+  - *Ideal para:* Análisis ético, documentos largos
+
+- **Gemini (Google):** 2.5 Pro vs 2.5 Flash
+  - *Pro:* Razonamiento avanzado, matemáticas, código
+  - *Flash:* Velocidad para consultas directas
+  - *Ideal para:* Integración Google Workspace, búsqueda
+
+- **Microsoft Copilot:** GPT-4/GPT-5 + Prometheus
+  - *Prometheus:* Orquesta LLM con datos Microsoft
+  - *Ideal para:* Entornos empresariales Microsoft
+
+### Modelos Rápidos vs. Modelos de Razonamiento
+
+**Cuándo usar cada tipo:**
+
+**Modelos Rápidos (Gemini Flash, ChatGPT rápido):**
+
+>"Resume este documento en 3 puntos clave"
+>"Traduce este párrafo al inglés"
+
+- Respuesta inmediata
+- Consultas directas
+- Procesamiento por lotes
+
+**Modelos de Razonamiento (Claude Opus, GPT-5 Pro):**
+
+>"Analiza estas 3 estrategias de marketing y recomienda la óptima con justificación"
+>
+>"Diseña un plan de transformación digital en 5 fases"
+
+- Pensamiento paso a paso
+- Problemas complejos
+- Toma de decisiones
+
+### Práctica: Tu Propia Comparación Sistemática
+
+**Ejercicio Guiado:**
+
+1. **Identifica tu tarea real:**
+   
+   >"Crear un plan de contenido para redes sociales del próximo trimestre"
+  
+
+2. **Diseña tu prompt estructurado:**
+   
+   >Eres director de marketing digital
+   >Crea un plan de contenido para 3 meses
+   >Empresa B2B SaaS, audiencia: directores técnicos
+   >4 publicaciones por mes, incluir temas y formatos
+   
+
+
+   - [Rol] Eres director de marketing digital
+   - [Enfoque] Crea un plan de contenido para 3 meses
+   - [Contexto] Empresa B2B SaaS, audiencia: directores técnicos
+   - [Límites] 4 publicaciones por mes, incluir temas y formatos
+
+3. **Ejecuta en las 4 plataformas** el mismo día
+
+4. **Evalúa con esta matriz:**
+   
+   | Criterio        | ChatGPT | Claude | Gemini | Copilot |
+   |-----------------|---------|--------|--------|---------|
+   | Claridad        |    ⭐⭐⭐   |   ⭐⭐⭐⭐  |   ⭐⭐⭐   |   ⭐⭐    |
+   | Accionabilidad  |    ⭐⭐⭐⭐  |   ⭐⭐⭐⭐  |   ⭐⭐⭐   |   ⭐⭐⭐   |
+   | Originalidad    |    ⭐⭐⭐   |   ⭐⭐⭐⭐  |   ⭐⭐    |   ⭐⭐⭐   |
+   | Integración     |    ⭐⭐    |   ⭐⭐    |   ⭐⭐⭐⭐  |   ⭐⭐⭐⭐  |
+   
+
+3. **Conclusión accionable:**
+   "Para planificación de contenido, Claude ofrece mayor profundidad estratégica, mientras Gemini integra mejor con mi stack de Google"
+
+### Integración en Tu Flujo de Trabajo
+
+**Consideraciones prácticas:**
+- **Si usas Google Workspace:** Gemini ofrece integración nativa
+- **Entorno Microsoft:** Copilot accede a tus emails y documentos
+- **Proyectos creativos:** ChatGPT suele liderar en originalidad
+- **Análisis ético/complejo:** Claude Opus destaca
+
+### Conclusión: Tu Kit de Herramientas Inteligente
+
+Dominar la comparación de modelos te convierte en un usuario estratégico de IA. En lugar de tener un favorito, desarrollas un criterio para:
+
+- **Seleccionar** el modelo óptimo para cada tipo de tarea
+- **Ahorrar** tiempo y obtener mejores resultados
+- **Adaptarte** rápidamente a nuevas versiones y herramientas
+
+**Tu Desafío Final:**
+Esta semana, realiza una comparación formal con una tarea real de tu trabajo.
+- ¿Qué tarea elegiste?
+- ¿Qué modelo ganó y por qué?
+- ¿Qué sorpresa descubriste en el proceso?
+
+La verdadera maestría en prompt engineering no está en conocer un solo modelo, sino en saber orquestar todo el ecosistema para tu beneficio.
+
